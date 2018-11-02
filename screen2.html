@@ -1,0 +1,369 @@
+<!-- FORMIDA FOR TEAMS *PROTOTYPE* WIP -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formida MS Teams</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/9.6.1/css/fabric.min.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="screen1update.html" class="current">Bedömning</a></li>
+        <li><a href="samman.html">Sammanställning</a></li>
+        <li><a href="analys.html">Analys</a></li>
+      </ul>
+    </nav>
+
+    <ul class="breadcrumb">
+      <li><a href="screen1update.html">Bedömning</a></li>
+      <li>Mina skolår (krönika)</li>
+    </ul>
+
+<div class="content">
+    <div class="screen2">
+      <button class="button"><i class="ms-Icon ms-Icon--Share" aria-hidden="true"></i> Dela bedömning</button>
+      <button class="button"><a href="screen4.html"><i class="ms-Icon ms-Icon--RedEye" aria-hidden="true"></i> Se bedömningsmatris</a></button>
+      <h2>Min skolår (krönika) <span class="kursnamn">Svenska(GRGRSVE01)</span></h2>
+      <table class="elev-table">
+        <thead>
+          <tr>
+            <th class="valen">Välj</th>
+            <th class="rund-namn">Namn</th>
+            <th class="elev-namn"></th>
+            <th class="betyg">Betyg</th>
+            <th class="betyg"></th>
+            <th class="betyg"></th>
+            <th class="komment">Kommentar</th>
+            <th class="datum">Datum</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">MA</p></td>
+            <td class="elev-namn" onclick="document.location = 'screen3.html';"><!--<a href="screen3.html">-->Maja Abrahamsson<!--</a>--></td>
+            <td class="betyg"><span class="green">E</span> <span class="green">C</span> <span class="grey">A</span></td>
+            <td class="betyg"><span class="green">E</span> <span class="green">C</span> <span class="green">A</span></td>
+            <td class="betyg"><span class="green">E</span> <span class="green">C</span> <span class="grey">A</span></td>
+            <td class="komment">-</td>
+            <td class="datum">7/9/2018</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">JA</p></td>
+            <td class="elev-namn">Jasmine Ali</td>
+            <td class="betyg"><span class="green">E</span> <span class="yellow">C</span> <span class="grey">A</span></td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">6/9/2018</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">SB</p></td>
+            <td class="elev-namn">Sara Björklund</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">-</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">EG</p></td>
+            <td class="elev-namn">Emilia Gustafsson</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">-</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">EH</p></td>
+            <td class="elev-namn">Ebba Hansen</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">-</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">LH</p></td>
+            <td class="elev-namn">Linnea Hansson</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">-</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">MI</p></td>
+            <td class="elev-namn">Matilda Isaksson</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">-</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">IJ</p></td>
+            <td class="elev-namn">Ida Jonsson</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">-</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">WL</p></td>
+            <td class="elev-namn">Wilma Lindholm</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">-</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">HL</p></td>
+            <td class="elev-namn">Hanna Lindqvist</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">-</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">JN</p></td>
+            <td class="elev-namn">Julia Norberg</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">-</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">EN</p></td>
+            <td class="elev-namn">Emma Nordin</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">-</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">AN</p></td>
+            <td class="elev-namn">Amanda Nordström</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">-</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">NT</p></td>
+            <td class="elev-namn">Nicole Tran</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">-</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">AA</p></td>
+            <td class="elev-namn">Anton Andreasson</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">-</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">OB</p></td>
+            <td class="elev-namn">Oscar Berglund</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">-</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">JB</p></td>
+            <td class="elev-namn">Jonathan Bergqvist</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">-</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">LD</p></td>
+            <td class="elev-namn">Lucas Dahlberg</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">-</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">MH</p></td>
+            <td class="elev-namn">Mohamed Hassan</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">-</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">WH</p></td>
+            <td class="elev-namn">William Hedlund</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">-</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">AH</p></td>
+            <td class="elev-namn">Ahmed Husein</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">-</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">JI</p></td>
+            <td class="elev-namn">Jacob Ismail</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">-</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">LJ</p></td>
+            <td class="elev-namn">Linus Jakobsson</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">-</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">ML</p></td>
+            <td class="elev-namn">Marcus Lund</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">-</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">VM</p></td>
+            <td class="elev-namn">Viktor Mohamed</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">-</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">AM</p></td>
+            <td class="elev-namn">Ali Mustafa</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">-</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">EN</p></td>
+            <td class="elev-namn">Erik Nyberg</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">-</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">AO</p></td>
+            <td class="elev-namn">Adam Olsson</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">-</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">EP</p></td>
+            <td class="elev-namn">Emil Persson</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">-</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">SS</p></td>
+            <td class="elev-namn">Simon Sjöberg</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">-</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">AS</p></td>
+            <td class="elev-namn">Alexander Sjögren</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">-</td>
+          </tr>
+          <tr>
+            <td class="valen"><input type="checkbox" name="elev" value="elev"></td>
+            <td class="rund-namn"><p class="name-circle">FÅ</p></td>
+            <td class="elev-namn">Filip Åberg</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="betyg">Ej bedömd</td>
+            <td class="komment">-</td>
+            <td class="datum">-</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+</div>
+
+</body>
+</html>
