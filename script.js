@@ -47,6 +47,14 @@ button4.onclick = function() {
     modal4.style.display = "none";
 }
 
+var modal = document.getElementById("myModal1");
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
 // MODAL 2 selection
 //(only first working)
 
