@@ -20,9 +20,11 @@ var btn2 = document.getElementById("myBtn2");
 var button2 = document.getElementsByClassName("close2")[0];
 btn2.onclick = function() {
     modal2.style.display = "block";
+    modal1.style.display = "none";
 }
 button2.onclick = function() {
     modal2.style.display = "none";
+    modal1.style.display = "block";
 }
 
 // MODAL 3
@@ -31,9 +33,11 @@ var btn3 = document.getElementById("myBtn3");
 var button3 = document.getElementsByClassName("close3")[0];
 btn3.onclick = function() {
     modal3.style.display = "block";
+    modal2.style.display = "none";
 }
 button3.onclick = function() {
     modal3.style.display = "none";
+    modal2.style.display = "block";
 }
 
 // MODAL 4
@@ -42,11 +46,13 @@ var btn4 = document.getElementById("myBtn4");
 var button4 = document.getElementsByClassName("close4")[0];
 btn4.onclick = function() {
     modal4.style.display = "block";
+    modal3.style.display = "none";
 }
 button4.onclick = function() {
     modal4.style.display = "none";
+    modal3.style.display = "block";
 }
-
+/*click outside the box to exit*/
 var modal = document.getElementById("myModal1");
 
 window.onclick = function(event) {
