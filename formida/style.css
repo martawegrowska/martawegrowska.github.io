@@ -1,3 +1,5 @@
+/********** FORMIDA FOR MS TEAMS PROTOTYPE **********/
+
 /***** SEGOE UI ALTERNATIVE FONT *****/
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
@@ -65,7 +67,7 @@ ul.breadcrumb li {
 
 ul.breadcrumb li+li:before {
     padding: 8px;
-    color: black;
+    color: #000;
     content: ">";
 }
 
@@ -98,6 +100,10 @@ ul.breadcrumb li a {
 /***** MAIN CONTENT STYLES *****/
 .content, .screen1 {
   margin-top: 60px;
+}
+
+.analys, .samman {
+  margin-top: 30px;
 }
 
 .content h2 {
@@ -349,7 +355,7 @@ ul.breadcrumb li a {
     display: block;
     border: 1px solid #dcdbdb;
     border-radius: 5px;
-    background-color: white;
+    background-color: #fff;
 }
 
 .modal-body1 select {
@@ -433,7 +439,7 @@ ul.breadcrumb li a {
 }
 .modal-buttons .backbtn { /* Bakåt/Avbryt button */
   padding: 8px 20px;
-  background-color: white;
+  background-color: #fff;
   color: #000;
   border: 2px solid #c8c6c4;
 }
@@ -540,7 +546,7 @@ ul.breadcrumb li a {
 
 /* Normal */
 .part3 .bg {
-  background-color: white;
+  background-color: #fff;
 }
 
 /* Clicked once */
@@ -600,7 +606,7 @@ textarea::placeholder {
   margin: 8px 0;
   border: 1px solid #dcdbdb;
   border-radius: 3px;
-  background-color: white;
+  background-color: #fff;
 /* display: block; */
 }
 
@@ -627,11 +633,17 @@ img {
   .modal-nav li {
     margin: 20px;
   }
+  .x input[type=checkbox] {
+    margin-left: 30px;
+  }
 }
 
 @media only screen and (max-width: 860px) {
   .modal-nav li {
     margin: 10px;
+  }
+  .x input[type=checkbox] {
+    margin-left: 20px;
   }
 }
 
