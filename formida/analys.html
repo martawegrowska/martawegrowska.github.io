@@ -1,12 +1,14 @@
-<!-- FORMIDA FOR TEAMS *PROTOTYPE* WIP -->
+<!-- FORMIDA FOR MS TEAMS PROTOTYPE -->
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Formida MS Teams</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formida Teams Prototype</title>
     <link rel="stylesheet" href="style.css">
-
-</head>
+    <!-- Microsoft Office UI Fabric Styles -->
+    <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/9.6.1/css/fabric.min.css">
+  </head>
   <body>
     <nav>
       <ul>
@@ -16,23 +18,26 @@
       </ul>
     </nav>
 
-    <div class="content">
-          <div class="screen4">
+    <div class="content analys">
+      <div class="screen4">
+        <form>
+          <select>
+            <option value="ex" selected>Mina skolår (krönika)</option>
+            <option value="ex">Mer än bara svenska (Sveriges minoritetsspråk)</option>
+            <option value="ex">Muntlig argumentation - Retorikens grunder</option>
+          </select>
+          <select>
+            <option value="Svenska" selected>Maja Abrahamsson</option>
+            <option value="Svenska">Jasmine Ali</option>
+            <option value="Svenska">Sara Björklund</option>
+          </select>
+        </form>
 
-            <form>
-              <select>
-                <option value="ex">Mina skolår (krönika)</option>
-              </select>
-              <select>
-                <option value="Svenska">Maja Abrahamsson</option>
-              </select>
-            </form>
-
-            <button class="button"><i class="ms-Icon ms-Icon--Download" aria-hidden="true"></i> Spara PDF</button>
-            <button class="button"><i class="ms-Icon ms-Icon--Share" aria-hidden="true"></i> Dela bedömning</button>
-            <h2>Min skolår (krönika) <span class="kursnamn">Svenska(GRGRSVE01)</span></h2>
-            <img src="analys.png" alt="analys-bild">
+        <button class="button"><i class="ms-Icon ms-Icon--Download" aria-hidden="true"></i> Spara PDF</button>
+        <button class="button"><i class="ms-Icon ms-Icon--Share" aria-hidden="true"></i> Dela bedömning</button>
+        <h2>Min skolår (krönika) <span class="kursnamn">Svenska(GRGRSVE01)</span></h2>
+        <img src="analys.png" alt="analys-bild">
+      </div>
     </div>
-
   </body>
-  </html>
+</html>
