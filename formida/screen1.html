@@ -1,10 +1,10 @@
-<!-- FORMIDA FOR TEAMS *PROTOTYPE* WIP -->
+<!-- FORMIDA FOR MS TEAMS PROTOTYPE -->
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formida MS Teams</title>
+    <title>Formida Teams Prototype</title>
     <link rel="stylesheet" href="style.css">
     <!-- Microsoft Office UI Fabric Styles -->
     <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/9.6.1/css/fabric.min.css">
@@ -18,307 +18,310 @@
       </ul>
     </nav>
 
-<div class="content">
-    <div class="screen1">
-      <!-- Open The Modal Button -->
-      <button id="myBtn1" class="button"><i class="ms-Icon ms-Icon--Add" aria-hidden="true"></i> Skapa moment</button>
-      <h2>Påbörjade moment</h2>
-      <table>
-        <thead>
-          <tr>
-            <th class="typ">Typ</th>
-            <th class="namn">Namn</th>
-            <th class="kurs">Kurs</th>
-            <th class="startad">Påbörjade</th>
-            <th class="eye"></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="typ"><i class="ms-Icon ms-Icon--Page" aria-hidden="true"></i></td>
-            <td class="namn">Mer än bara svenska (Sveriges minoritesspråk)</td>
-            <td class="kurs">Svenska(GRGRSVE01)</td>
-            <td class="startad"><i class="ms-Icon ms-Icon--Waffle" aria-hidden="true"></i> 1/12</td>
-            <td class="eye"><i class="ms-Icon ms-Icon--RedEye" aria-hidden="true"></i></td>
-          </tr>
-          <tr>
-            <td class="typ"><i class="ms-Icon ms-Icon--Page" aria-hidden="true"></i></td>
-            <td class="namn">Muntlig argumentation - Retorikens grunder</td>
-            <td class="kurs">Svenska(GRGRSVE01)</td>
-            <td class="startad"><i class="ms-Icon ms-Icon--Waffle" aria-hidden="true"></i> 2/12</td>
-            <td class="eye"><i class="ms-Icon ms-Icon--RedEye" aria-hidden="true"></i></td>
-          </tr>
-        </tbody>
-      </table>
+    <div class="content">
+      <div class="screen1">
+        <!-- Open The Modal Button -->
+        <button id="myBtn1" class="button"><i class="ms-Icon ms-Icon--Add" aria-hidden="true"></i> Skapa moment</button>
+        <h2>Påbörjade moment</h2>
+        <table>
+          <thead>
+            <tr>
+              <th class="typ">Typ</th>
+              <th class="namn">Namn</th>
+              <th class="kurs">Kurs</th>
+              <th class="startad">Påbörjade</th>
+              <th class="eye"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="typ"><i class="ms-Icon ms-Icon--Page" aria-hidden="true"></i></td>
+              <td class="namn">Mer än bara svenska (Sveriges minoritesspråk)</td>
+              <td class="kurs">Svenska(GRGRSVE01)</td>
+              <td class="startad"><i class="ms-Icon ms-Icon--Waffle" aria-hidden="true"></i> 1/12</td>
+              <td class="eye"><i class="ms-Icon ms-Icon--RedEye" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+              <td class="typ"><i class="ms-Icon ms-Icon--Page" aria-hidden="true"></i></td>
+              <td class="namn">Muntlig argumentation - Retorikens grunder</td>
+              <td class="kurs">Svenska(GRGRSVE01)</td>
+              <td class="startad"><i class="ms-Icon ms-Icon--Waffle" aria-hidden="true"></i> 2/12</td>
+              <td class="eye"><i class="ms-Icon ms-Icon--RedEye" aria-hidden="true"></i></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="screen1">
+        <h2>Ej påbörjade moment</h2>
+        <table>
+          <thead>
+            <tr>
+              <th class="typ">Typ</th>
+              <th class="namn">Namn</th>
+              <th class="kurs">Kurs</th>
+              <th class="startad">Påbörjade</th>
+              <th class="eye"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="typ"><i class="ms-Icon ms-Icon--Page" aria-hidden="true"></i></td>
+              <td class="namn">Läsa och skriva - Skriftlig och muntlig argumentation</td>
+              <td class="kurs">Svenska(GRGRSVE01)</td>
+              <td class="startad"><i class="ms-Icon ms-Icon--Waffle" aria-hidden="true"></i> 0/12</td>
+              <td class="eye"><i class="ms-Icon ms-Icon--RedEye" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+              <td class="typ"><i class="ms-Icon ms-Icon--Page" aria-hidden="true"></i></td>
+              <td class="namn">Läsa och skriva - Skriva en debattartikel</td>
+              <td class="kurs">Svenska(GRGRSVE01)</td>
+              <td class="startad"><i class="ms-Icon ms-Icon--Waffle" aria-hidden="true"></i> 0/12</td>
+              <td class="eye"><i class="ms-Icon ms-Icon--RedEye" aria-hidden="true"></i></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-    <div class="screen1">
-      <h2>Ej påbörjade moment</h2>
-      <table>
-        <thead>
-          <tr>
-            <th class="typ">Typ</th>
-            <th class="namn">Namn</th>
-            <th class="kurs">Kurs</th>
-            <th class="startad">Påbörjade</th>
-            <th class="eye"></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="typ"><i class="ms-Icon ms-Icon--Page" aria-hidden="true"></i></td>
-            <td class="namn">Läsa och skriva - Skriftlig och muntlig argumentation</td>
-            <td class="kurs">Svenska(GRGRSVE01)</td>
-            <td class="startad"><i class="ms-Icon ms-Icon--Waffle" aria-hidden="true"></i> 0/12</td>
-            <td class="eye"><i class="ms-Icon ms-Icon--RedEye" aria-hidden="true"></i></td>
-          </tr>
-          <tr>
-            <td class="typ"><i class="ms-Icon ms-Icon--Page" aria-hidden="true"></i></td>
-            <td class="namn">Läsa och skriva - Skriva en debattartikel</td>
-            <td class="kurs">Svenska(GRGRSVE01)</td>
-            <td class="startad"><i class="ms-Icon ms-Icon--Waffle" aria-hidden="true"></i> 0/12</td>
-            <td class="eye"><i class="ms-Icon ms-Icon--RedEye" aria-hidden="true"></i></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-</div>
 
-<!-- The FIRST Modal -->
-<div id="myModal1" class="modal1 modal-all">
-  <!-- Modal content -->
-  <div class="modal-content1 modal-content-all">
-    <div class="modal-header1 modal-header-all">
-    <h2>Skapa ett nytt moment</h2>
-    <ul class="modal-nav">
-      <li><a href="#" class="current">1. Information</a></li>
-	    <li><a href="#">2. Syfte</a></li>
-	    <li><a href="#">3. Centralt Innehåll</a></li>
-	    <li><a href="#">4. Kunskapskrav</a></li>
-	  </ul>
+    <!-- The FIRST Modal -->
+    <div id="myModal1" class="modal1 modal-all">
+      <!-- Modal content -->
+      <div class="modal-content1 modal-content-all">
+        <div class="modal-header1 modal-header-all">
+          <h2>Skapa ett nytt moment</h2>
+          <ul class="modal-nav">
+            <li><a href="#" class="current">1. Information</a></li>
+            <li><a href="#">2. Syfte</a></li>
+            <li><a href="#">3. Centralt Innehåll</a></li>
+            <li><a href="#">4. Kunskapskrav</a></li>
+          </ul>
+        </div>
+        <div class="modal-body1 modal-body-all">
+          <h3>Välj namn, skolform samt ämne/kurs</h3>
+          <div class="form">
+            <form>
+              <label>Namn på moment
+                <input type="text" name="username" placeholder="Namn">
+              </label>
+              <label>Välj skolform
+                <select>
+                  <option value="ex">Grundskola 4-6</option>
+                  <option value="ex" selected>Grundskola 7-9</option>
+                  <option value="ex">Gymnasieskola</option>
+                </select>
+              </label>
+              <label class="last">Välj ämne/kurs
+                <select>
+                  <option value="Svenska" selected>Svenska (GRGRSVE01)</option>
+                  <option value="Svenska">Engelska (GRGRENG01)</option>
+                  <option value="Svenska">Historia (GRGRHIS01)</option>
+                </select>
+              </label>
+            </form>
+          </div>
+        </div>
+        <div class="modal-footer1 modal-footer-all">
+          <div class="modal-buttons">
+            <!--close button + continue button-->
+            <button type="button" class="close1 backbtn">Avbryt</button>
+            <button type="button"  id="myBtn2">Fortsätt</button>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="modal-body1 modal-body-all">
-      <h3>Välj namn, skolform samt ämne/kurs</h3>
-      <div class="form">
-      <form>
-        <label>Namn på moment
-        <input type="text" name="username" placeholder="Namn">
-        </label>
-        <label>Välj skolform
-        <select>
-          <option value="ex">Grundskola 7-9</option>
-        </select>
-        </label>
-        <label class="last">Välj ämne/kurs
-        <select>
-          <option value="Svenska">Svenska (GRGRSVE01)</option>
-        </select>
-        </label>
-      </form>
-    </div>
-    </div>
-    <div class="modal-footer1 modal-footer-all">
-      <div class="modal-buttons">
-        <!--close button + continue button-->
-      <button type="button" class="close1 backbtn">Avbryt</button>
-      <button type="button"  id="myBtn2">Fortsätt</button>
-    </div>
-    </div>
-  </div>
-</div>
 
-<!-- The SECOND Modal -->
-<div id="myModal2" class="modal2 modal-all">
-  <!-- Modal content -->
-  <div class="modal-content2 modal-content-all">
-    <div class="modal-header2 modal-header-all">
-      <h2>Skapa ett nytt moment</h2>
-	  <ul class="modal-nav">
-	  <li><a href="#">1. Information</a></li>
-	  <li><a href="#" class="current">2. Syfte</a></li>
-	  <li><a href="#">3. Centralt Innehåll</a></li>
-	  <li><a href="#">4. Kunskapskrav</a></li>
-	  </ul>
+    <!-- The SECOND Modal -->
+    <div id="myModal2" class="modal2 modal-all">
+      <!-- Modal content -->
+      <div class="modal-content2 modal-content-all">
+        <div class="modal-header2 modal-header-all">
+          <h2>Skapa ett nytt moment</h2>
+          <ul class="modal-nav">
+            <li><a href="#">1. Information</a></li>
+        	  <li><a href="#" class="current">2. Syfte</a></li>
+        	  <li><a href="#">3. Centralt Innehåll</a></li>
+        	  <li><a href="#">4. Kunskapskrav</a></li>
+      	  </ul>
+        </div>
+        <div class="modal-body2 modal-body-all">
+          <h3>Välj det/de syfte som uppfylls med hjälp av detta moment</h3>
+          <p id="ex" class="lista normal">Utveckla sin förmåga att formulera sig och kommunicera i tal och skrift.</p>
+          <p class="lista normal">Utveckla sin förmåga att läsa och analysera skönlitteratur och andra texter för olika syften.</p>
+          <p class="lista normal">Utveckla sin förmåga att anpassa språket efter olika syften, mottagare och sammanhang.</p>
+          <p class="lista normal">Utveckla sin förmåga att urskilja språkliga strukturer och följa språkliga normer.</p>
+          <p class="lista normal">Utveckla sin förmåga att söka information från olika källor och värdera dessa</p>
+        </div>
+        <div class="modal-footer2 modal-footer-all">
+          <div class="modal-buttons">
+            <button type="button" class="close2 backbtn">Bakåt</button>
+            <button type="button" id="myBtn3">Fortsätt</button>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="modal-body2 modal-body-all">
-      <h3>Välj det/de syfte som uppfylls med hjälp av detta moment</h3>
-      <p id="ex" class="lista normal">Utveckla sin förmåga att formulera sig och kommunicera i tal och skrift.</p>
-      <p class="lista normal">Utveckla sin förmåga att läsa och analysera skönlitteratur och andra texter för olika syften.</p>
-      <p class="lista normal">Utveckla sin förmåga att anpassa språket efter olika syften, mottagare och sammanhang.</p>
-      <p class="lista normal">Utveckla sin förmåga att urskilja språkliga strukturer och följa språkliga normer.</p>
-      <p class="lista normal">Utveckla sin förmåga att söka information från olika källor och värdera dessa</p>
-    </div>
-    <div class="modal-footer2 modal-footer-all">
-      <div class="modal-buttons">
-      <button type="button" class="close2 backbtn">Bakåt</button>
-      <button type="button" id="myBtn3">Fortsätt</button>
-    </div>
-    </div>
-  </div>
-</div>
 
-<!-- The THIRD Modal -->
-<div id="myModal3" class="modal3 modal-all">
-  <!-- Modal content -->
-  <div class="modal-content3 modal-content-all">
-    <div class="modal-header3 modal-header-all">
-      <h2>Skapa ett nytt moment</h2>
-	  <ul class="modal-nav">
-	  <li><a href="#">1. Information</a></li>
-	  <li><a href="#">2. Syfte</a></li>
-	  <li><a href="#" class="current">3. Centralt Innehåll</a></li>
-	  <li><a href="#">4. Kunskapskrav</a></li>
-	  </ul>
+    <!-- The THIRD Modal -->
+    <div id="myModal3" class="modal3 modal-all">
+      <!-- Modal content -->
+      <div class="modal-content3 modal-content-all">
+        <div class="modal-header3 modal-header-all">
+          <h2>Skapa ett nytt moment</h2>
+      	  <ul class="modal-nav">
+            <li><a href="#">1. Information</a></li>
+        	  <li><a href="#">2. Syfte</a></li>
+        	  <li><a href="#" class="current">3. Centralt Innehåll</a></li>
+        	  <li><a href="#">4. Kunskapskrav</a></li>
+      	  </ul>
+        </div>
+        <div class="modal-body3 modal-body-all">
+          <h3>Välj det centrala innehållet i detta moment</h3>
+          <h4>Berättande texter och sakprosatexter</h4>
+          <p class="lista normal">Beskrivande, förklarande, utredande, instruerande och argumenterande texter, till exempel tidningsartiklar, vetenskapliga texter, arbetsbeskrivningar och blogginlägg. Texternas syften, innehåll, uppbyggnad och språkliga drag.</p>
+          <p class="lista normal">Kombination av olika texttyper till nya texter, till exempel informerande texter med inslag av argumentation.</p>
+          <p class="lista normal">Några skönliterära genrer och hur de stilistiskt och innehållsligt skiljer sig ifrån varandra.</p>
+          <p class="lista normal">Några skönlitterärt betydelsefulla ungdoms- och vuxenboksförfattare från Sverige, Norden och övriga världen och deras verk, samt de historiska och kulturella sammanhang som verken har tillkommit i.</p>
+          <p class="lista normal">Skönlitteratur för ungdomar och vuxna från olika tider, från Sverige, Norden och övriga världen. Skönlitteratur som belyser människors villkor och identitets- och livsfrågor. Lyrik, dramatik, sagor och myter.</p>
+          <p class="lista normal">Språkliga drag, uppbyggnad och berättarperspektiv i skönliteratur för ungdomar och vuxna. Parallelhandling, tillbackablickar, miljö- och personbeskrivningar, inre och yttre dialoger.</p>
+          <p class="lista normal">Texter i digitala miljöer med länkar och andra interaktiva funktioner.</p>
+          <p class="lista normal">Texter som kombinerar ord, bild och ljud, och deras språkliga och dramaturgiska komponenter. Hur uttrycken kan samspela med varandra, till exempel i tv-serier, teaterföreställningar och webbtexter.</p>
+          <h4>Informationssökning och källkritik</h4>
+          <p class="lista normal">Hur man citerar och gör källhänvisningar, även vid användning av digitala medier.</p>
+          <p class="lista normal">Hur man sovrar i en stor informationsmängd och prövar källors tillförlitlighet med ett källkritiskt förhållningssätt.</p>
+          <p class="lista normal">Informationssökning på bibliotek och på Internet, i böcker och massmedier samt genom intervjuer.</p>
+          <h4>Läsa och skriva</h4>
+          <p class="lista normal">Lässtrategier för att förstå, tolka och analysera texter från olika medier. Att urskilja texters budskap, tema och motiv samt deras syften, avsändare och sammanhang.</p>
+          <p class="lista normal">Olika sätt att skapa och bearbeta egna och gemensamma texter till innehåll och form. Hur man ger och tar emot respons på texter.</p>
+          <p class="lista normal">Ordböcker och digitala verktyg för stavning och ordförståelse.</p>
+          <p class="lista normal">Redigering och disposition av texter med hjälp av digitala verktyg. Olika funktioner för språkbehandling.</p>
+          <p class="lista normal">Språkets struktur med stavningsregler, skiljetecken, ordklasser och satsdelar.</p>
+          <p class="lista normal">Strategier för att skriva olika typer av texter med anpassning till deras typiska uppbyggnad och språkliga drag. Skapande av texter där ord, bild och ljud samspelar, såväl med som utan digitala verktyg.</p>
+          <h4>Språkbruk</h4>
+          <p class="lista normal">Etiska och moraliska aspekter på språkbruk, yttrandefrihet och itegritet i digitala och andra medier och i olika sammanhang.</p>
+          <p class="lista normal">Nya ord i språket, till exempel lånord.</p>
+          <p class="lista normal">Ord, symboler och begrepp som används för att uttrycka känslor, kunskaper och åsikter. Ords och begrepps nyanser och värdeladdning.</p>
+          <p class="lista normal">Skillnader i språkanvändning beroende på i vilken sammanhang, med vem och med vilket syfte man kommunicerar.</p>
+          <p class="lista normal">Språkbruk genom tiderna. De nationella minoritetsspråken i Sverige och deras ställning i samhället.</p>
+          <p class="lista normal">Språkbruk i Sverige och Norden. Några varianter av regionalt färgad talspråk i Sverige och olika språk i Norden. Några kännetecknande ord och begrepp samt skillnader och likheter mellan de olika språken.</p>
+          <p class="lista normal">Språkets betydelse för att utöva inflytande och för den egna identitetsutvecklingen.</p>
+          <p class="lista normal">Språkliga strategier för att minnas och lära genom att identifiera nyckelord och föra anteckningar.</p>
+          <h4>Tala, lyssna och samtala</h4>
+          <p class="lista normal">Att leda ett samtal, formulera och bemöta argument samt sammanfatta huvuddragen i vad som sagts.</p>
+          <p class="lista normal">Muntliga presentationer och muntliga berättande för olika mottagare, om ämnen hämtade från skola och samhällsliv. Anpassning av språk, innehåll och disposition till syfte och mottagare. Olika hjälpmedel, till exempel digitala medier och verktyg, flr att planera och genomföra muntliga presentationer.</p>
+        </div>
+        <div class="modal-footer3 modal-footer-all">
+          <div class="modal-buttons">
+            <button type="button" class="close3 backbtn">Bakåt</button>
+            <button type="button" id="myBtn4">Fortsätt</button>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="modal-body3 modal-body-all">
-      <h3>Välj det centrala innehållet i detta moment</h3>
-      <h4>Berättande texter och sakprosatexter</h4>
-      <p class="lista normal">Beskrivande, förklarande, utredande, instruerande och argumenterande texter, till exempel tidningsartiklar, vetenskapliga texter, arbetsbeskrivningar och blogginlägg. Texternas syften, innehåll, uppbyggnad och språkliga drag.</p>
-      <p class="lista normal">Kombination av olika texttyper till nya texter, till exempel informerande texter med inslag av argumentation.</p>
-      <p class="lista normal">Några skönliterära genrer och hur de stilistiskt och innehållsligt skiljer sig ifrån varandra.</p>
-      <p class="lista normal">Några skönlitterärt betydelsefulla ungdoms- och vuxenboksförfattare från Sverige, Norden och övriga världen och deras verk, samt de historiska och kulturella sammanhang som verken har tillkommit i.</p>
-      <p class="lista normal">Skönlitteratur för ungdomar och vuxna från olika tider, från Sverige, Norden och övriga världen. Skönlitteratur som belyser människors villkor och identitets- och livsfrågor. Lyrik, dramatik, sagor och myter.</p>
-      <p class="lista normal">Språkliga drag, uppbyggnad och berättarperspektiv i skönliteratur för ungdomar och vuxna. Parallelhandling, tillbackablickar, miljö- och personbeskrivningar, inre och yttre dialoger.</p>
-      <p class="lista normal">Texter i digitala miljöer med länkar och andra interaktiva funktioner.</p>
-      <p class="lista normal">Texter som kombinerar ord, bild och ljud, och deras språkliga och dramaturgiska komponenter. Hur uttrycken kan samspela med varandra, till exempel i tv-serier, teaterföreställningar och webbtexter.</p>
-      <h4>Informationssökning och källkritik</h4>
-      <p class="lista normal">Hur man citerar och gör källhänvisningar, även vid användning av digitala medier.</p>
-      <p class="lista normal">Hur man sovrar i en stor informationsmängd och prövar källors tillförlitlighet med ett källkritiskt förhållningssätt.</p>
-      <p class="lista normal">Informationssökning på bibliotek och på Internet, i böcker och massmedier samt genom intervjuer.</p>
-      <h4>Läsa och skriva</h4>
-      <p class="lista normal">Lässtrategier för att förstå, tolka och analysera texter från olika medier. Att urskilja texters budskap, tema och motiv samt deras syften, avsändare och sammanhang.</p>
-      <p class="lista normal">Olika sätt att skapa och bearbeta egna och gemensamma texter till innehåll och form. Hur man ger och tar emot respons på texter.</p>
-      <p class="lista normal">Ordböcker och digitala verktyg för stavning och ordförståelse.</p>
-      <p class="lista normal">Redigering och disposition av texter med hjälp av digitala verktyg. Olika funktioner för språkbehandling.</p>
-      <p class="lista normal">Språkets struktur med stavningsregler, skiljetecken, ordklasser och satsdelar.</p>
-      <p class="lista normal">Strategier för att skriva olika typer av texter med anpassning till deras typiska uppbyggnad och språkliga drag. Skapande av texter där ord, bild och ljud samspelar, såväl med som utan digitala verktyg.</p>
-      <h4>Språkbruk</h4>
-      <p class="lista normal">Etiska och moraliska aspekter på språkbruk, yttrandefrihet och itegritet i digitala och andra medier och i olika sammanhang.</p>
-      <p class="lista normal">Nya ord i språket, till exempel lånord.</p>
-      <p class="lista normal">Ord, symboler och begrepp som används för att uttrycka känslor, kunskaper och åsikter. Ords och begrepps nyanser och värdeladdning.</p>
-      <p class="lista normal">Skillnader i språkanvändning beroende på i vilken sammanhang, med vem och med vilket syfte man kommunicerar.</p>
-      <p class="lista normal">Språkbruk genom tiderna. De nationella minoritetsspråken i Sverige och deras ställning i samhället.</p>
-      <p class="lista normal">Språkbruk i Sverige och Norden. Några varianter av regionalt färgad talspråk i Sverige och olika språk i Norden. Några kännetecknande ord och begrepp samt skillnader och likheter mellan de olika språken.</p>
-      <p class="lista normal">Språkets betydelse för att utöva inflytande och för den egna identitetsutvecklingen.</p>
-      <p class="lista normal">Språkliga strategier för att minnas och lära genom att identifiera nyckelord och föra anteckningar.</p>
-      <h4>Tala, lyssna och samtala</h4>
-      <p class="lista normal">Att leda ett samtal, formulera och bemöta argument samt sammanfatta huvuddragen i vad som sagts.</p>
-      <p class="lista normal">Muntliga presentationer och muntliga berättande för olika mottagare, om ämnen hämtade från skola och samhällsliv. Anpassning av språk, innehåll och disposition till syfte och mottagare. Olika hjälpmedel, till exempel digitala medier och verktyg, flr att planera och genomföra muntliga presentationer.</p>
-    </div>
-    <div class="modal-footer3 modal-footer-all">
-      <div class="modal-buttons">
-      <button type="button" class="close3 backbtn">Bakåt</button>
-      <button type="button" id="myBtn4">Fortsätt</button>
-    </div>
-    </div>
-  </div>
-</div>
 
-<!-- The FORTH Modal -->
-<div id="myModal4" class="modal4 modal-all">
-  <!-- Modal content -->
-  <div class="modal-content4 modal-content-all">
-    <div class="modal-header4 modal-header-all">
-      <h2>Skapa ett nytt moment</h2>
-	  <ul class="modal-nav">
-	  <li><a href="#">1. Information</a></li>
-	  <li><a href="#">2. Syfte</a></li>
-	  <li><a href="#">3. Centralt Innehåll</a></li>
-	  <li><a href="#" class="current">4. Kunskapskrav</a></li>
-	  </ul>
+    <!-- The FORTH Modal -->
+    <div id="myModal4" class="modal4 modal-all">
+      <!-- Modal content -->
+      <div class="modal-content4 modal-content-all">
+        <div class="modal-header4 modal-header-all">
+          <h2>Skapa ett nytt moment</h2>
+      	  <ul class="modal-nav">
+        	  <li><a href="#">1. Information</a></li>
+        	  <li><a href="#">2. Syfte</a></li>
+        	  <li><a href="#">3. Centralt Innehåll</a></li>
+        	  <li><a href="#" class="current">4. Kunskapskrav</a></li>
+      	  </ul>
+        </div>
+        <div class="modal-body4 modal-body-all">
+          <h3>Välj ett eller flera kunskapskrav som ingår i detta moment</h3>
+          <table>
+            <thead>
+              <tr>
+                <th class="">E</th>
+                <th class="">C</th>
+                <th class="">A</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="rutor bakgrund">
+                <td class="">Eleven kan läsa skönlitteratur och sakprosatexter med <strong>flyt</strong> genom att, på ett i <strong>huvudsak fungerande</strong> sätt, välja och använda lässtrategier utifrån olika texters särdrag.</td>
+                <td class="">Eleven kan läsa skönlitteratur och sakprosatexter med <strong>gott flyt</strong> genom att, på ett i <strong>ändamålsenligt</strong> sätt, välja och använda lässtrategier utifrån olika texters särdrag.</td>
+                <td class="">Eleven kan läsa skönlitteratur och sakprosatexter med <strong>mycket gott flyt</strong> genom att, på ett i <strong>ändamålsenligt och effektivt</strong> sätt, välja och använda lässtrategier utifrån olika texters särdrag.</td>
+              </tr>
+              <tr class="rutor bakgrund">
+                <td class="">Genom att göra <strong>enkla</strong> sammanfattningar av olika texters innehåll med viss koppling till tidsaspekter, orsakssamband och andra texter visar eleven <strong>grundläggande</strong> läsförståelse.</td>
+                <td class="">Genom att göra <strong>utvecklade</strong> sammanfattningar av olika texters innehåll med <strong>relativt god</strong> koppling till tidsaspekter, orsakssamband och andra texter visar eleven <strong>god</strong> läsförståelse.</td>
+                <td class="">Genom att göra <strong>välutvecklade</strong> sammanfattningar av olika texters innehåll med <strong>god</strong> koppling till tidsaspekter, orsakssamband och andra texter visar eleven <strong>mycket god</strong> läsförståelse.</td>
+              </tr>
+              <tr class="rutor bakgrund">
+                <td>Dessutom kan eleven utifrån egna erfarenheter, olika livsfrågor och omvärldsfrågor tolka och föra <strong>enkla och till viss del</strong> underbyggda resonemang om <strong>tydligt framträdande budskap</strong> i olika verk.</td>
+                <td>Dessutom kan eleven utifrån egna erfarenheter, olika livsfrågor och omvärldsfrågor tolka och föra <strong>utvecklade och relativt väl</strong> underbyggda resonemang om budskap som är <strong>tydligt framträdande och budskap som kan läsas mellan raderna</strong> i olika verk.</td>
+                <td>Dessutom kan eleven utifrån egna erfarenheter, olika livsfrågor och omvärldsfrågor tolka och föra <strong>välutvecklade och väl</strong> underbyggda resonemang om budskap som är <strong>tydligt framträdande och budskap som kan läsas mellan raderna eller är dolda</strong> i olika verk.</td>
+              </tr>
+              <tr class="rutor bakgrund">
+                <td>Eleven kan också föra <strong>enkla</strong> resonemang om verket med kopplingar till dess upphovsman.</td>
+                <td>Eleven kan också föra <strong>utvecklade</strong> resonemang om verket med kopplingar till dess upphovsman.</td>
+                <td>Eleven kan också föra <strong>välutvecklade och nyanserade</strong> resonemang om verket med kopplingar till dess upphovsman.</td>
+              </tr>
+              <tr class="rutor bakgrund">
+                <td>Eleven drar då <strong>till viss del</strong> underbyggda slutsatser om hur verket har påverkats av det historiska och kulturella sammanhang som det har tillkommit i.</td>
+                <td>Eleven drar då <strong>relativt väl</strong> underbyggda slutsatser om hur verket har påverkats av det historiska och kulturella sammanhang som det har tillkommit i.</td>
+                <td>Eleven drar då <strong>väl</strong> underbyggda slutsatser om hur verket har påverkats av det historiska och kulturella sammanhang som det har tillkommit i.</td>
+              </tr>
+              <tr class="rutor bakgrund">
+                <td>Eleven kan skriva olika slags texter med <strong>viss</strong> språklig variation, <strong>enkel</strong> textbindning samt i <strong>huvudsak </strong>fungerande anpassning till texttyp, språkliga normer och strukturer.</td>
+                <td>Eleven kan skriva olika slags texter med <strong>relativt god</strong> språklig variation, <strong>utvecklad</strong> textbindning samt i <strong>relativt väl </strong>fungerande anpassning till texttyp, språkliga normer och strukturer.</td>
+                <td>Eleven kan skriva olika slags texter med <strong>god</strong> språklig variation, <strong>välutvecklad</strong> textbindning samt i <strong>väl </strong>fungerande anpassning till texttyp, språkliga normer och strukturer.</td>
+              </tr>
+              <tr class="rutor bakgrund">
+                <td>De berättande texter eleven skriver innehåller <strong>enkla</strong> gestaltande beskrivningar och berättargrepp samt dramaturgi med <strong>enkel</strong> uppbyggnad.</td>
+                <td>De berättande texter eleven skriver innehåller <strong>utvecklade</strong> gestaltande beskrivningar och berättargrepp samt dramaturgi med <strong>relativt komplex</strong> uppbyggnad.</td>
+                <td>De berättande texter eleven skriver innehåller <strong>välutvecklade</strong> gestaltande beskrivningar och berättargrepp samt dramaturgi med <strong>komplex</strong> uppbyggnad.</td>
+              </tr>
+              <tr class="rutor bakgrund">
+                <td>Eleven kan söka, välja ut och sammanställa information från ett <strong>avgränsat</strong> urval av källor och för då <strong>enkla och till viss del</strong> underbyggda resonemang om informationens och källornas trovärdighet och relevans.</td>
+                <td>Eleven kan söka, välja ut och sammanställa information från ett <strong>relativt varierat</strong> urval av källor och för då <strong>utvecklade och relativt väl</strong> underbyggda resonemang om informationens och källornas trovärdighet och relevans.</td>
+                <td>Eleven kan söka, välja ut och sammanställa information från ett <strong> varierat</strong> urval av källor och för då <strong>välutvecklade och väl</strong> underbyggda resonemang om informationens och källornas trovärdighet och relevans.</td>
+              </tr>
+              <tr class="rutor bakgrund">
+                <td>Sammanställningarna innehåller <strong>enkla</strong> beskrivningar och förklaringar, <strong>enkelt</strong> ämnesrelaterat språk samt <strong>i huvudsak</strong> fungerande struktur, citat och källhänvisningar.</td>
+                <td>Sammanställningarna innehåller <strong>utvecklade</strong> beskrivningar och förklaringar, <strong>utvecklat</strong> ämnesrelaterat språk samt <strong>relativt väl</strong> fungerande struktur, citat och källhänvisningar.</td>
+                <td>Sammanställningarna innehåller <strong>välutvecklade och nyanserade</strong> beskrivningar och förklaringar, <strong>välutvecklat</strong> ämnesrelaterat språk samt <strong>väl</strong> fungerande struktur, citat och källhänvisningar.</td>
+              </tr>
+              <tr class="rutor bakgrund">
+                <td>Genom att kombinera olika texttyper, estetiska uttryck och medier så att de olika delarna samspelar på ett <strong>i huvudsak fungerande</strong> sätt kan eleven förstärka och levandegöra sina texters budskap.</td>
+                <td>Genom att kombinera olika texttyper, estetiska uttryck och medier så att de olika delarna samspelar på ett <strong>ändamålsentligt</strong> sätt kan eleven förstärka och levandegöra sina texters budskap.</td>
+                <td>Genom att kombinera olika texttyper, estetiska uttryck och medier så att de olika delarna samspelar på ett <strong>ändamålsentligt och effektivt</strong> sätt kan eleven förstärka och levandegöra sina texters budskap.</td>
+              </tr>
+              <tr class="rutor bakgrund">
+                <td>Dessutom kan eleven ge <strong>enkla</strong> omdömen om texters innehåll och uppbyggnad och utifrån respons bearbeta texter mot ökad tydlighet, kvalitet och uttrycksfullhet på ett <strong>i huvudsak</strong> fungerande sätt.</td>
+                <td>Dessutom kan eleven ge <strong>utvecklade</strong> omdömen om texters innehåll och uppbyggnad och utifrån respons bearbeta texter mot ökad tydlighet, kvalitet och uttrycksfullhet på ett <strong>relativt väl</strong> fungerande sätt.</td>
+                <td>Dessutom kan eleven ge <strong>välutvecklade och nyanserade</strong> omdömen om texters innehåll och uppbyggnad och utifrån respons bearbeta texter mot ökad tydlighet, kvalitet och uttrycksfullhet på ett <strong>väl</strong> fungerande sätt.</td>
+              </tr>
+              <tr class="rutor bakgrund">
+                <td>Eleven kan samtala om och diskutera varierande ämnen genom att ställa frågor och framföra åsikter med <strong>enkla och till viss del</strong> underbyggda argument på ett sätt som <strong>till viss del för samtalet och diskussionerna framåt.</strong></td>
+                <td>Eleven kan samtala om och diskutera varierande ämnen genom att ställa frågor och framföra åsikter med <strong>utvecklade och relativt väl</strong> underbyggda argument på ett sätt som <strong>för samtalet och diskussionerna framåt.</strong></td>
+                <td>Eleven kan samtala om och diskutera varierande ämnen genom att ställa frågor och framföra åsikter med <strong>välutvecklade och väl</strong> underbyggda argument på ett sätt som <strong>för samtalet och diskussionerna framåt och fördjupar eller breddar dem.</strong></td>
+              </tr>
+              <tr class="rutor bakgrund">
+                <td>Dessutom kan eleven förbereda och genomföra <strong>enkla</strong> muntliga redogörelser med <strong>i huvudsak</strong> fungerande struktur och innehåll och <strong>viss</strong> anpassning till syfte, mottagare och sammanhang.</td>
+                <td>Dessutom kan eleven förbereda och genomföra <strong>utvecklade</strong> muntliga redogörelser med <strong>relativt väl</strong> fungerande struktur och innehåll och <strong>relativt god</strong> anpassning till syfte, mottagare och sammanhang.</td>
+                <td>Dessutom kan eleven förbereda och genomföra <strong>välutvecklade</strong> muntliga redogörelser med <strong>väl</strong> fungerande struktur och innehåll och <strong>god</strong> anpassning till syfte, mottagare och sammanhang.</td>
+              </tr>
+              <tr class="rutor bakgrund">
+                <td>Eleven kan föra <strong>enkla och till viss del</strong> underbyggda resonemang om svenska språkets historia, ursprung och särdrag samt jämföra med närliggande språk och beskriva tydligt framträdande likheter och skillnader.</td>
+                <td>Eleven kan föra <strong>utvecklade och relativt väl</strong> underbyggda resonemang om svenska språkets historia, ursprung och särdrag samt jämföra med närliggande språk och beskriva tydligt framträdande likheter och skillnader.</td>
+                <td>Eleven kan föra <strong>väutvecklade och väl</strong> underbyggda resonemang om svenska språkets historia, ursprung och särdrag samt jämföra med närliggande språk och beskriva tydligt framträdande likheter och skillnader.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="modal-footer4 modal-footer-all">
+          <div class="modal-buttons">
+            <button type="button" class="close4 backbtn">Bakåt</button>
+            <button type="button" onclick="document.location = 'screen1update.html';">Skapa</button>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="modal-body4 modal-body-all">
-      <h3>Välj ett eller flera kunskapskrav som ingår i detta moment</h3>
-      <table>
-        <thead>
-          <tr>
-            <th class="">E</th>
-            <th class="">C</th>
-            <th class="">A</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="rutor bakgrund">
-            <td class="">Eleven kan läsa skönlitteratur och sakprosatexter med <strong>flyt</strong> genom att, på ett i <strong>huvudsak fungerande</strong> sätt, välja och använda lässtrategier utifrån olika texters särdrag.</td>
-            <td class="">Eleven kan läsa skönlitteratur och sakprosatexter med <strong>gott flyt</strong> genom att, på ett i <strong>ändamålsenligt</strong> sätt, välja och använda lässtrategier utifrån olika texters särdrag.</td>
-            <td class="">Eleven kan läsa skönlitteratur och sakprosatexter med <strong>mycket gott flyt</strong> genom att, på ett i <strong>ändamålsenligt och effektivt</strong> sätt, välja och använda lässtrategier utifrån olika texters särdrag.</td>
-          </tr>
-          <tr class="rutor bakgrund">
-            <td class="">Genom att göra <strong>enkla</strong> sammanfattningar av olika texters innehåll med viss koppling till tidsaspekter, orsakssamband och andra texter visar eleven <strong>grundläggande</strong> läsförståelse.</td>
-            <td class="">Genom att göra <strong>utvecklade</strong> sammanfattningar av olika texters innehåll med <strong>relativt god</strong> koppling till tidsaspekter, orsakssamband och andra texter visar eleven <strong>god</strong> läsförståelse.</td>
-            <td class="">Genom att göra <strong>välutvecklade</strong> sammanfattningar av olika texters innehåll med <strong>god</strong> koppling till tidsaspekter, orsakssamband och andra texter visar eleven <strong>mycket god</strong> läsförståelse.</td>
-          </tr>
-          <tr class="rutor bakgrund">
-            <td>Dessutom kan eleven utifrån egna erfarenheter, olika livsfrågor och omvärldsfrågor tolka och föra <strong>enkla och till viss del</strong> underbyggda resonemang om <strong>tydligt framträdande budskap</strong> i olika verk.</td>
-            <td>Dessutom kan eleven utifrån egna erfarenheter, olika livsfrågor och omvärldsfrågor tolka och föra <strong>utvecklade och relativt väl</strong> underbyggda resonemang om budskap som är <strong>tydligt framträdande och budskap som kan läsas mellan raderna</strong> i olika verk.</td>
-            <td>Dessutom kan eleven utifrån egna erfarenheter, olika livsfrågor och omvärldsfrågor tolka och föra <strong>välutvecklade och väl</strong> underbyggda resonemang om budskap som är <strong>tydligt framträdande och budskap som kan läsas mellan raderna eller är dolda</strong> i olika verk.</td>
-          </tr>
-          <tr class="rutor bakgrund">
-            <td>Eleven kan också föra <strong>enkla</strong> resonemang om verket med kopplingar till dess upphovsman.</td>
-            <td>Eleven kan också föra <strong>utvecklade</strong> resonemang om verket med kopplingar till dess upphovsman.</td>
-            <td>Eleven kan också föra <strong>välutvecklade och nyanserade</strong> resonemang om verket med kopplingar till dess upphovsman.</td>
-          </tr>
-          <tr class="rutor bakgrund">
-            <td>Eleven drar då <strong>till viss del</strong> underbyggda slutsatser om hur verket har påverkats av det historiska och kulturella sammanhang som det har tillkommit i.</td>
-            <td>Eleven drar då <strong>relativt väl</strong> underbyggda slutsatser om hur verket har påverkats av det historiska och kulturella sammanhang som det har tillkommit i.</td>
-            <td>Eleven drar då <strong>väl</strong> underbyggda slutsatser om hur verket har påverkats av det historiska och kulturella sammanhang som det har tillkommit i.</td>
-          </tr>
-          <tr class="rutor bakgrund">
-            <td>Eleven kan skriva olika slags texter med <strong>viss</strong> språklig variation, <strong>enkel</strong> textbindning samt i <strong>huvudsak </strong>fungerande anpassning till texttyp, språkliga normer och strukturer.</td>
-            <td>Eleven kan skriva olika slags texter med <strong>relativt god</strong> språklig variation, <strong>utvecklad</strong> textbindning samt i <strong>relativt väl </strong>fungerande anpassning till texttyp, språkliga normer och strukturer.</td>
-            <td>Eleven kan skriva olika slags texter med <strong>god</strong> språklig variation, <strong>välutvecklad</strong> textbindning samt i <strong>väl </strong>fungerande anpassning till texttyp, språkliga normer och strukturer.</td>
-          </tr>
-          <tr class="rutor bakgrund">
-            <td>De berättande texter eleven skriver innehåller <strong>enkla</strong> gestaltande beskrivningar och berättargrepp samt dramaturgi med <strong>enkel</strong> uppbyggnad.</td>
-            <td>De berättande texter eleven skriver innehåller <strong>utvecklade</strong> gestaltande beskrivningar och berättargrepp samt dramaturgi med <strong>relativt komplex</strong> uppbyggnad.</td>
-            <td>De berättande texter eleven skriver innehåller <strong>välutvecklade</strong> gestaltande beskrivningar och berättargrepp samt dramaturgi med <strong>komplex</strong> uppbyggnad.</td>
-          </tr>
-          <tr class="rutor bakgrund">
-            <td>Eleven kan söka, välja ut och sammanställa information från ett <strong>avgränsat</strong> urval av källor och för då <strong>enkla och till viss del</strong> underbyggda resonemang om informationens och källornas trovärdighet och relevans.</td>
-            <td>Eleven kan söka, välja ut och sammanställa information från ett <strong>relativt varierat</strong> urval av källor och för då <strong>utvecklade och relativt väl</strong> underbyggda resonemang om informationens och källornas trovärdighet och relevans.</td>
-            <td>Eleven kan söka, välja ut och sammanställa information från ett <strong> varierat</strong> urval av källor och för då <strong>välutvecklade och väl</strong> underbyggda resonemang om informationens och källornas trovärdighet och relevans.</td>
-          </tr>
-          <tr class="rutor bakgrund">
-            <td>Sammanställningarna innehåller <strong>enkla</strong> beskrivningar och förklaringar, <strong>enkelt</strong> ämnesrelaterat språk samt <strong>i huvudsak</strong> fungerande struktur, citat och källhänvisningar.</td>
-            <td>Sammanställningarna innehåller <strong>utvecklade</strong> beskrivningar och förklaringar, <strong>utvecklat</strong> ämnesrelaterat språk samt <strong>relativt väl</strong> fungerande struktur, citat och källhänvisningar.</td>
-            <td>Sammanställningarna innehåller <strong>välutvecklade och nyanserade</strong> beskrivningar och förklaringar, <strong>välutvecklat</strong> ämnesrelaterat språk samt <strong>väl</strong> fungerande struktur, citat och källhänvisningar.</td>
-          </tr>
-          <tr class="rutor bakgrund">
-            <td>Genom att kombinera olika texttyper, estetiska uttryck och medier så att de olika delarna samspelar på ett <strong>i huvudsak fungerande</strong> sätt kan eleven förstärka och levandegöra sina texters budskap.</td>
-            <td>Genom att kombinera olika texttyper, estetiska uttryck och medier så att de olika delarna samspelar på ett <strong>ändamålsentligt</strong> sätt kan eleven förstärka och levandegöra sina texters budskap.</td>
-            <td>Genom att kombinera olika texttyper, estetiska uttryck och medier så att de olika delarna samspelar på ett <strong>ändamålsentligt och effektivt</strong> sätt kan eleven förstärka och levandegöra sina texters budskap.</td>
-          </tr>
-          <tr class="rutor bakgrund">
-            <td>Dessutom kan eleven ge <strong>enkla</strong> omdömen om texters innehåll och uppbyggnad och utifrån respons bearbeta texter mot ökad tydlighet, kvalitet och uttrycksfullhet på ett <strong>i huvudsak</strong> fungerande sätt.</td>
-            <td>Dessutom kan eleven ge <strong>utvecklade</strong> omdömen om texters innehåll och uppbyggnad och utifrån respons bearbeta texter mot ökad tydlighet, kvalitet och uttrycksfullhet på ett <strong>relativt väl</strong> fungerande sätt.</td>
-            <td>Dessutom kan eleven ge <strong>välutvecklade och nyanserade</strong> omdömen om texters innehåll och uppbyggnad och utifrån respons bearbeta texter mot ökad tydlighet, kvalitet och uttrycksfullhet på ett <strong>väl</strong> fungerande sätt.</td>
-          </tr>
-          <tr class="rutor bakgrund">
-            <td>Eleven kan samtala om och diskutera varierande ämnen genom att ställa frågor och framföra åsikter med <strong>enkla och till viss del</strong> underbyggda argument på ett sätt som <strong>till viss del för samtalet och diskussionerna framåt.</strong></td>
-            <td>Eleven kan samtala om och diskutera varierande ämnen genom att ställa frågor och framföra åsikter med <strong>utvecklade och relativt väl</strong> underbyggda argument på ett sätt som <strong>för samtalet och diskussionerna framåt.</strong></td>
-            <td>Eleven kan samtala om och diskutera varierande ämnen genom att ställa frågor och framföra åsikter med <strong>välutvecklade och väl</strong> underbyggda argument på ett sätt som <strong>för samtalet och diskussionerna framåt och fördjupar eller breddar dem.</strong></td>
-          </tr>
-          <tr class="rutor bakgrund">
-            <td>Dessutom kan eleven förbereda och genomföra <strong>enkla</strong> muntliga redogörelser med <strong>i huvudsak</strong> fungerande struktur och innehåll och <strong>viss</strong> anpassning till syfte, mottagare och sammanhang.</td>
-            <td>Dessutom kan eleven förbereda och genomföra <strong>utvecklade</strong> muntliga redogörelser med <strong>relativt väl</strong> fungerande struktur och innehåll och <strong>relativt god</strong> anpassning till syfte, mottagare och sammanhang.</td>
-            <td>Dessutom kan eleven förbereda och genomföra <strong>välutvecklade</strong> muntliga redogörelser med <strong>väl</strong> fungerande struktur och innehåll och <strong>god</strong> anpassning till syfte, mottagare och sammanhang.</td>
-          </tr>
-          <tr class="rutor bakgrund">
-            <td>Eleven kan föra <strong>enkla och till viss del</strong> underbyggda resonemang om svenska språkets historia, ursprung och särdrag samt jämföra med närliggande språk och beskriva tydligt framträdande likheter och skillnader.</td>
-            <td>Eleven kan föra <strong>utvecklade och relativt väl</strong> underbyggda resonemang om svenska språkets historia, ursprung och särdrag samt jämföra med närliggande språk och beskriva tydligt framträdande likheter och skillnader.</td>
-            <td>Eleven kan föra <strong>väutvecklade och väl</strong> underbyggda resonemang om svenska språkets historia, ursprung och särdrag samt jämföra med närliggande språk och beskriva tydligt framträdande likheter och skillnader.</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <div class="modal-footer4 modal-footer-all">
-      <div class="modal-buttons">
-      <button type="button" class="close4 backbtn">Bakåt</button>
-      <button type="button" onclick="document.location = 'screen1update.html';"><!--<a href="screen1update.html">-->Skapa<!--</a>--></button>
-    </div>
-  </div>
-</div>
-</div>
-<script src="script.js"></script>
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
