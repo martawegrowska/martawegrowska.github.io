@@ -1,3 +1,5 @@
+/********** FORMIDA FOR MS TEAMS PROTOTYPE **********/
+
 // MODAL 1
 // Get the modal
 var modal1 = document.getElementById('myModal1');
@@ -52,33 +54,34 @@ button4.onclick = function() {
     modal4.style.display = "none";
     modal3.style.display = "block";
 }
-/*click outside the box to exit*/
-var modal = document.getElementById("myModal1");
+// Click outside the white box to exit
+var modal1 = document.getElementById("myModal1");
+var modal2 = document.getElementById("myModal2");
+var modal3 = document.getElementById("myModal3");
+var modal4 = document.getElementById("myModal4");
 
 window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
+    if (event.target == modal1) {
+        modal1.style.display = "none";
+    }
+    else if (event.target == modal2) {
+        modal1.style.display = "none";
+        modal2.style.display = "none";
+    }
+    else if (event.target == modal3) {
+        modal1.style.display = "none";
+        modal2.style.display = "none";
+        modal3.style.display = "none";
+    }
+    else if (event.target == modal4) {
+        modal1.style.display = "none";
+        modal2.style.display = "none";
+        modal3.style.display = "none";
+        modal4.style.display = "none";
     }
 }
 
-// MODAL 2 selection
-//(only first working)
-
-/*
-var syfte = document.getElementById("ex");
-
-syfte.onclick = function() {
-  if (syfte.style.borderLeft === "") {
-  syfte.style.borderLeft = "4px solid #6364A7";
-}
-else {
-    syfte.style.borderLeft = "";
-  }
-}
-*/
-
-
-// In modals when clicked/selected it shows a border
+// Modal 2 and 3 when clicked it shows a border
 var cards = document.querySelectorAll(".lista");
 for (var i = 0; i < cards.length; i++) {
 	var card = cards[i];
@@ -93,7 +96,7 @@ for (var i = 0; i < cards.length; i++) {
 		}
 	};
 }
-// For modal 4
+// Modal 4 background change when clicked
 var cards = document.querySelectorAll(".rutor");
 for (var i = 0; i < cards.length; i++) {
 	var card = cards[i];
@@ -108,6 +111,24 @@ for (var i = 0; i < cards.length; i++) {
 		}
 	};
 }
+
+/********** Unused/Failed code **********/
+
+// MODAL 2 selection
+//(working only on one)
+
+/*
+var syfte = document.getElementById("ex");
+
+syfte.onclick = function() {
+  if (syfte.style.borderLeft === "") {
+  syfte.style.borderLeft = "4px solid #6364A7";
+}
+else {
+    syfte.style.borderLeft = "";
+  }
+}
+*/
 
 // For screen3 table
 /*
@@ -124,18 +145,5 @@ for (var i = 0; i < cards.length; i++) {
       this.classList.add("bg")
 		}
 	};
-}
-*/
-
-/* student table
-window.onload = function () {
-    var rows = document.getElementById("table1").tBodies[0].getElementsByTagName("td");
-    for (var i = 0; i < rows.length; i++) {
-        rows[i].onclick = rowClickHandler;
-    }
-};
-
-function rowClickHandler() {
-    this.classList.toggle("highlighted");
 }
 */
